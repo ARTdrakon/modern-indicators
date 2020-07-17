@@ -13,9 +13,7 @@
 @import url(https://hellbound1337.github.io/modern-indicators/src/source.css);
 
 @-webkit-keyframes colorfade {  
-  0% { background-color: rgba(255, 255, 255, 0.1);}
   50% { background-color: rgba(255, 255, 255, 0.2);}
-  100% { background-color: rgba(255, 255, 255, 0.1);}
 }
 
 [class*=' iconVisibility-'], [class*='modeUnread-'] {
@@ -28,7 +26,7 @@ background-color: rgba(255, 255, 255, 0.1);
 
 :root {
    /*--unread-background: rgba(255, 255, 255, 0.1) !important; */
-   --unread-badge: rgba(255,255,255,0.6) !important;
+   --unread-badge: rgba(255,255,255,1) !important;
    --selected-badge: rgb(112, 135, 215) !important;
    --selected-background: rgba(112, 135, 215, 0.2) !important;
    --hovered: rgba(79,84,92,0.16) !important;
